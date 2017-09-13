@@ -1,0 +1,54 @@
+@import vars
+@import backgrounds
+@import borders
+@import spaces
+@import sizes
+@import colors
+@import flex
+@import boxshadows
+@import basicstyle
+@import weight
+
+
+
+.btn
+    height: 50px
+.btn_hover
+    &:hover
+        @extend .box_shadows_hovered
+        cursor: pointer
+.btn_pressed
+    &:active
+        box-shadow: 0 0 0 0
+        cursor: pointer
+.g_hover
+    &:hover
+        box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.1)
+        cursor: pointer
+        span
+            &:last-child
+                display: block !important
+            &:nth-child(2)
+                display: none
+.g_button
+    height: 100%
+    line-height: 50px
+    width: 56px !important
+    text-align: center
+    margin: 0
+    //padding: 0 5px
+
+.g_pressed
+    &:active
+        @extend .g_hover
+        box-shadow: 0 0 0 0 !important
+.create_account_hover
+    &:hover
+        @extend .box_shadows_0_2px_5px_0
+.create_account_pressed
+    &:active
+        background-color: $color_extra_light_grey !important
+        box-shadow: 0 0 0 0
+.g_hover_without_animation
+    box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.1)
+    cursor: pointer

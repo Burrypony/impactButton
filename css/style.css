@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+.background_blue {
+  background-color: #448aff; }
+
+.background_extra_light_grey {
+  background-color: #f7f7f9; }
+
+.background_white {
+  background-color: #ffffff; }
+
+.background_orange_red {
+  background-color: #ff5722; }
+
+.background_orange_2 {
+  background-color: #ff6d00; }
+
+.border_radius {
+  border-radius: 4px; }
+
+.margin_0_5 {
+  margin: 0 5px; }
+
+.w100per {
+  width: 100% !important; }
+
+.w112pix {
+  width: 112px !important; }
+
+.w380pix {
+  width: 380px !important; }
+
+.s14px {
+  font-size: 14px !important; }
+
+.w144px {
+  width: 144px !important; }
+
+.w122px {
+  width: 122px !important; }
+
+.w246px {
+  width: 246px !important; }
+
+.h24px {
+  height: 24px !important; }
+
+.w40px {
+  width: 40px !important; }
+
+.w191px {
+  width: 191px !important; }
+
+.w157px {
+  width: 157px !important; }
+
+.h19px {
+  height: 19px !important; }
+
+.svg_clasic {
+  height: 20px !important;
+  width: 19px !important; }
+
+.s16px {
+  font-size: 16px !important; }
+
+.w56px {
+  width: 56px !important; }
+
+.color_white {
+  color: #ffffff; }
+
+.color_super_light_grey {
+  color: #e7e7ec; }
+
+.color_light_grey {
+  color: #cccccc; }
+
+.color_blue {
+  color: #448aff; }
+
+.flex_center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.flex_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
+.flex_direction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse; }
+
+.flex_baseline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline; }
+
+.box_shadows {
+  -webkit-box-shadow: 0 2px 10px 0 rgba(68, 138, 255, 0.5);
+          box-shadow: 0 2px 10px 0 rgba(68, 138, 255, 0.5); }
+
+.box_shadows_hovered, .btn_hover:hover {
+  -webkit-box-shadow: 0 4px 12px 0;
+          box-shadow: 0 4px 12px 0; }
+
+.box_shadows_0_2px_5px_0, .create_account_hover:hover {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1) !important;
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1) !important; }
+
+.box_shadows_orange {
+  -webkit-box-shadow: 0 2px 10px 0 rgba(255, 87, 34, 0.5);
+          box-shadow: 0 2px 10px 0 rgba(255, 87, 34, 0.5); }
+
+* {
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important; }
+
+body, html, h1, h2, h3, h4, h5, h6, span, p, div, ul, li, input, form {
+  font-family: "Roboto", sans-serif; }
+
+button {
+  border: 0;
+  outline: 0;
+  padding: 0; }
+
+.weight700 {
+  font-weight: 700; }
+
+.weight500 {
+  font-weight: 500; }
+
+.btn {
+  height: 50px; }
+
+.btn_hover:hover {
+  cursor: pointer; }
+
+.btn_pressed:active {
+  -webkit-box-shadow: 0 0 0 0;
+          box-shadow: 0 0 0 0;
+  cursor: pointer; }
+
+.g_hover:hover, .g_pressed:hover:active {
+  -webkit-box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer; }
+  .g_hover:hover span:last-child, .g_pressed:hover:active span:last-child {
+    display: block !important; }
+  .g_hover:hover span:nth-child(2), .g_pressed:hover:active span:nth-child(2) {
+    display: none; }
+
+.g_button {
+  height: 100%;
+  line-height: 50px;
+  width: 56px !important;
+  text-align: center;
+  margin: 0; }
+
+.g_pressed:active {
+  -webkit-box-shadow: 0 0 0 0 !important;
+          box-shadow: 0 0 0 0 !important; }
+
+.create_account_pressed:active {
+  background-color: #f7f7f9 !important;
+  -webkit-box-shadow: 0 0 0 0;
+          box-shadow: 0 0 0 0; }
+
+.g_hover_without_animation {
+  -webkit-box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */
